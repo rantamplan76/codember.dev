@@ -21,7 +21,7 @@ def checkKey(cadena):
     letraClave = cadena[espacioIndex+1:dosPuntosIndex]
     clave = cadena[dosPuntosIndex+2:]
     #print(cadena, minimo, maximo, letraClave, clave)
-    #number = cadena.count(letraClave)
+    #number = clave.count(letraClave)
     number = Counter(clave)[letraClave]
     if number < int(minimo) or number > int(maximo):
         return (False, clave)
