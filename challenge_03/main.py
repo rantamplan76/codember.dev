@@ -1,10 +1,10 @@
-## Reto https://codember.dev/ CHALLENGE_02
+## Reto https://codember.dev/ CHALLENGE_03
 
 import requests
 from collections import Counter
 
 
-# Descargamos archivo y convertimos su contenido binario en un string
+# Descargamos archivo
 
 url = 'https://codember.dev/data/encryption_policies.txt'
 with requests.get(url) as file:
